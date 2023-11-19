@@ -1,4 +1,5 @@
-![logo](https://github.com/hell0world312/BotGT/assets/146132083/71dddad7-9641-4803-95d7-d4ec7162423f)
+![favicon](https://github.com/hell0world312/BotGT/assets/146132083/68367141-b5df-4940-95ea-913a253c52da)
+
 # BotGT
 BotGT is a simple chat bot tool which you can use for websites online. You can check out the demo here: [https://chat-gt.replit.app/](https://chat-gt.replit.app/)https://chat-gt.replit.app/
 
