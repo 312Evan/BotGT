@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotGT</title>
+
+    <style>
+      body {
+        background: #18191A;
+        color: #ffffff;
+        font-family: Helvetica;
+      }
+
+      button {
+        background: #3A3B3C;
+        color: #ffffff;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      input {
+        background: #3A3B3C;
+        color: #ffffff;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+      }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <label for="user_input">You:</label>
+        <input type="text" id="user_input" name="user_input">
+        <button type="submit">Send</button>
+    </form>
+    {% if user_input %}
+        <p>Bot: {{ bot_response }}</p>
+    {% endif %}
+</body>
+</html>
